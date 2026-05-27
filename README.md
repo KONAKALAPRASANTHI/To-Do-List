@@ -2,7 +2,7 @@
 
 A simple and interactive To-Do List web application built using HTML, CSS, and JavaScript.
 
-This project demonstrates DOM Manipulation and ES6 concepts by allowing users to add, complete, and delete tasks dynamically.
+This project demonstrates DOM Manipulation, ES6 concepts, and Responsive Web Design by allowing users to add, complete, and delete tasks dynamically.
 
 ---
 
@@ -45,6 +45,14 @@ This project demonstrates DOM Manipulation and ES6 concepts by allowing users to
 
 ---
 
+## Responsive Web Design Concepts
+
+- Flexbox
+- Media Queries
+- Responsive Layout
+
+---
+
 ## Project Structure
 
 ```text
@@ -54,3 +62,9 @@ todo-list/
 ├── style.css
 ├── script.js
 └── README.md
+Author
+
+Prasanthi Konakala
+
+
+ 
