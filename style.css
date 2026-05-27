@@ -9,9 +9,11 @@ body {
 .container {
   background: white;
   padding: 25px;
-  width: 350px;
+  width: 90%;
+  max-width: 400px;
+
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
 h1 {
@@ -72,4 +74,31 @@ li {
 .delete-btn {
   background: red;
   padding: 5px 10px;
+}
+/* Responsive Design */
+
+@media (max-width: 600px) {
+
+  .container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .input-section {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  li {
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
 }
